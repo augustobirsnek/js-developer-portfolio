@@ -1,7 +1,7 @@
 {
   "name": "Augusto L Birsnek",
   "photo": "https://avatars.githubusercontent.com/u/96273303?v=4",
-  "job": "Developer",
+  "job": "Full Stack Developer",
   "location": "Curitiba - PR",
   "phone": "(41) 99644-3160",
   "email": "augustobirsnek@gmail.com",
@@ -41,13 +41,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso da DIO para criação de uma Pokedex",
-      "url": "https://github.com/augustobirsnek/DIO-POKEDEX",
+      "name": "Curso da DIO para criação do jogo Yu-Gi-Oh Jo-ken-po Edition",
+      "url": "https://augustobirsnek.github.io/dio-yugioh-jokenpo/",
+      "github": true
+    },
+    {
+      "name": "Curso da DIO para a criação de um simulador de piano",
+      "url": "https://augustobirsnek.github.io/dio-simulador-piano/",
       "github": true
     },
     {
       "name": "Curso da DIO para a criação de um jogo da memória",
-      "url": "https://github.com/augustobirsnek/DIO-jogo-da-memoria",
+      "url": "https://augustobirsnek.github.io/dio-memory-game/",
       "github": true
     }
   ],
