@@ -14,8 +14,9 @@ function updateProfileInfo(profileData) {
     location.innerText = profileData.location
 
     const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
-    phone.href = `http://wa.me/${profileData.phone}`
+    phone.innerText = phoneNumberFormat(profileData.phone)
+    phone.href = `http://wa.me/55${profileData.phone}`
+    phone.target = 'blank'
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
@@ -71,3 +72,9 @@ function updateProfessionalExperience(profileData) {
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
+
+
+function phoneNumberFormat(number) {
+    let numberFormated = `(${number.substr(0,2)}) ${number.substr(2,5)}-${number.substr(-4)}`
+    return numberFormated
+}
